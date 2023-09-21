@@ -1,0 +1,136 @@
+body {
+    background-color: rgb(220, 184, 220);
+    color: rgb(67, 64, 64);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
+    display: flex;
+    justify-content:space-around;
+    list-style-type:none;
+    align-items: center;
+    padding: 16px;
+}
+
+p{
+    text-align: justify;
+}
+
+a{
+    color: rgb(67, 64, 64);
+    text-decoration: none;
+}
+
+header {
+    text-align:center;
+}
+
+
+header img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 7px solid rgba(14, 135, 142, 0.495);
+}
+
+.center{
+    text-align: center;
+}
+
+footer img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid rgba(14, 135, 142, 0.495);
+
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    margin: 16px;
+    text-align: center;
+}
+
+footer p {
+    margin-top: 2px;
+}
+
+.container {
+    padding: 0px 50px;
+}
+
+nav a:hover {
+    color: rgba(14, 135, 142, 0.495);
+}
+
+.contato {
+    text-align: center;
+    margin-top: 70px;
+}
+
+main{
+    width: 90%;
+    margin:auto;
+    max-width: 860px;
+}
+
+article{
+    background-color:rgba(14, 136, 142, 0.274); 
+    padding: 16px;
+    margin-bottom: 32px;
+    margin-top: 32px;
+}
+
+article h3 {
+    border-bottom: 2px solid purple;
+    background-color:rgba(255, 166, 0, 0.36);
+    padding: 2px;
+    margin-top: 0;
+    margin-right: auto;
+    width: fit-content;
+    text-align: justify;
+    
+}
+
+.btn {
+    background-color: #cdc7c3;
+    display: inline-block;
+    padding: 5px 5px;
+    border-radius: 6px;
+    margin-left:auto;
+    width: fit-content;
+}
+
+.photo {
+    display: flex;
+    width: 120px;
+    height: 120px;
+    text-align: right;
+}
+
+.titulo_proj{
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 8px 0px;
+    margin: 8px 0px;
+}
+
+input[type=text] {
+    height: 100px;
+}
+
+button {
+    background-color: #cdc7c3;
+    display: inline-block;
+    padding: 5px 5px;
+    border-radius: 6px;
+    margin-left:auto;
+    width: fit-content;
+}
